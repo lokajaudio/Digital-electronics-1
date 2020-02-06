@@ -1,4 +1,14 @@
 
+# Lab 1: Git version-control system, Online simulator
+
+#### Table of contents
+
+1. [Lab prerequisites](#Lab-prerequisites)
+2. [GitHub](#GitHub)
+3. [Linux terminal](#Linux-terminal)
+4. [Online simulator](#Online-simulator)
+5. [Synchronize git](#Synchronize-git)
+6. [Ideas for other tasks](#Ideas-for-other-tasks)
 
 
    | **A** | **NOT** |
