@@ -41,3 +41,24 @@
   | 1 | 1 | 0 | 1 | 1 | 1 |
   | 1 | 1 | 1 | 0 | 0 | 0 |
 
+
+
+
+## Ideas for other tasks
+
+1. Use online digital circuit simulator, draw the logic diagram according to figure, complete the truth table, and determine the circuit function.
+
+    ![logic](../../Images/gates_2-4.png)
+
+    | **A** | **B** | **Q3** | **Q2** | **Q1** | **Q0** |
+    | :-: | :-: | :-: | :-: | :-: | :-: |
+    | 0 | 0 |  |  |
+    | 0 | 1 |  |  |
+    | 1 | 0 |  |  |
+    | 1 | 1 |  |  |
+
+    > Figure was created in online [draw.io](https://www.draw.io/) diagram editor.
+    >
+
+2. Try different online simulators, such as [Logicly](https://logic.ly/), [simulatorIO](https://simulator.io/), [LogicEmu](https://lodev.org/logicemu/), or find others, and compare them.
+
