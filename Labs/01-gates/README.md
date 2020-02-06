@@ -28,7 +28,7 @@
     | 1 | 1 | 0 | 1 |
 
 
-![Obrázok](Labs/01-gates/Main.jpeg)
+![Obrázok](Main.jpeg)
 
 
     | **A** | **B** |**C** | 
