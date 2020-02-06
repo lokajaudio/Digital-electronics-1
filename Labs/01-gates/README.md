@@ -27,8 +27,8 @@
     | 1 | 0 | 1 | 0 |
     | 1 | 1 | 0 | 1 |
 
-(Main.jpeg)
 ![Logic gates schematic]
+(Main.jpeg)
 
 
     | **A** | **B** |**C** | 
