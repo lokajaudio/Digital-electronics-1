@@ -28,7 +28,7 @@
     | 1 | 1 | 0 | 1 |
 
 
-![Obrázok](/home/lab661/Documents/lokajmaro/Digital-electronics-1/Labs/01-gates/Main.jpeg)
+![Obrázok](Labs/01-gates/Main.jpeg)
 
 
     | **A** | **B** |**C** | 
