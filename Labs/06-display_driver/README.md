@@ -4,6 +4,7 @@
 
 *3.*
 
+```
 ------------------------------------------------------------------------
 --
 -- Driver for seven-segment displays.
@@ -112,3 +113,6 @@ begin
 
 
 end architecture Behavioral;
+
+
+```
