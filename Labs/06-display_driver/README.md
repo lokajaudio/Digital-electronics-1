@@ -1,5 +1,5 @@
 *1.*
-![](06-display_driver/wavedrom (2).png)
+![](/wavedrom (2).png)
 
 ```
 {signal: [
