@@ -1,76 +1,8 @@
-# Lab 6: Driver for seven-segment display
+1.
 
-#### Objectives
+2.
 
-In this laboratory exercise, you will study the creation of a sequential circuit for multiplexing a 7-segment display. This allows you to display 4-digit values including the decimal point on the display.
-
-
-#### Materials
-
-You will use a push button on the CoolRunner-II CPLD starter board ([XC2C256-TQ144](../../Docs/xc2c256_cpld.pdf), [manual](../../Docs/coolrunner-ii_rm.pdf), [schematic](../../Docs/coolrunner-ii_sch.pdf)) as reset device, onboard clock signal with frequency of 10&nbsp;kHz for synchronization, and 7-segment display as output device. You will also use slide switches on the CPLD expansion board ([schematic](../../Docs/cpld_expansion.pdf)) as inputs.
-
-![coolrunner_bin_cnt](../../Images/coolrunner_disp_driver.jpg)
-
-
-## 1 Preparation tasks (done before the lab at home)
-
-1. See [reference manual](../../Docs/coolrunner-ii_rm.pdf) of the Coolrunner board, find out the connection of 7-segment display, and complete the signal timing to display `03.14` value. Note that the duration of one symbol is 4&nbsp;ms.
-
-    &nbsp;
-    ![segment_timing](../../Images/wavedrom_7-segment.png)
-    &nbsp;
-
-> The figure above was created in [WaveDrom](https://wavedrom.com/) digital timing diagram online tool. The figure source code is as follows:
->
-```javascript
-{signal: [
-  ['Digit position',
-    {name: 'disp_dig_o(3)', wave: 'xx01..01..xx', },
-    {name: 'disp_dig_o(2)', wave: 'xx1', },
-    {name: 'disp_dig_o(1)', wave: 'xx1', },
-    {name: 'disp_dig_o(0)', wave: 'xx1', },
-  ],
-  ['Seven-segment data',
-    {name: 'disp_seg_o',       wave: 'xx33335555xx', data: ['0','3','1','4','0','3','1','4'], },  
-    {name: 'A: disp_seg_o(6)', wave: 'xx0.1.0.1.xx', },
-    {name: 'B: disp_seg_o(5)', wave: 'xx0',          },
-    {name: 'C: disp_seg_o(4)', wave: 'xx0',          },
-    {name: 'D: disp_seg_o(3)', wave: 'xx0',          },
-    {name: 'E: disp_seg_o(2)', wave: 'xx0',          },
-    {name: 'F: disp_seg_o(1)', wave: 'xx0',          },
-    {name: 'G: disp_seg_o(0)', wave: 'xx1',          },
-  ],
-  {name: 'Decimal point', wave: 'xx101..01.xx', },
-],
-  head: {
-    text: '4ms   4ms   4ms   4ms   4ms   4ms   4ms   4ms',
-  },
-}
-```
-
-2. See how to make [signal assignments](https://github.com/tomas-fryza/Digital-electronics-1/wiki/Signal-assignments) outside and inside a process. What is the difference between combinational and sequential processes?
-
-
-## 2 Synchronize Git and create a new folder
-
-1. Open a Linux terminal, change path to your Digital-electronics-1 working directory, and synchronize the contents with GitHub.
-
-2. Create a new folder `Labs/06-display_driver`
-
-
-## 3 Display driver VHDL code
-
-Multiplexer or MUX is a digital switch. It allows to route binary information from several input lines or sources to one output line or channel.
-
-1. Create a new project in ISE titled `display_driver` for XC2C256-TQ144 CPLD device in location `/home/lab661/Documents/your-name/Digital-electronics-1/Labs/06-display_driver`
-
-2. Create a new VHDL module `driver_7seg` and copy/paste the following code template
-
-
-
-
-
-
+*3.*
 
 ------------------------------------------------------------------------
 --
@@ -180,19 +112,3 @@ begin
 
 
 end architecture Behavioral;
-
-2. Connect seven-segment driver and implement it on the Coolrunner-II board. Use slide switches on the CPLD expansion board as data inputs and display the values on the 7-segment display. Connect the reset to BTN0 push button and make sure the 10kHz clock frequency is selected by JP1 jumper. Copy Coolrunner and Expansion UCF files to the working folder. Add these files to the project.
-
-
-
-## Experiments on your own
-
-1. On your smartphone, set slow motion video recording and observe the seven-segment display behavior. :)
-
-2. Display 4-bit input values with green and red LEDs on the CPLD expansion board.
-
-3. Display digit position value with LEDs on the Coolrunner board.
-
-4. Extend the duration of one symbol on the 7-segment display (ie. generic `g_NPERIOD` in `driver_7seg.vhd` file) and experimentally determine the maximum value at which switching by the human eye is not yet observable.
-
-5. Complete your `README.md` file with notes and screenshots from simulation and implementation
