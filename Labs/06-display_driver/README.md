@@ -1,6 +1,6 @@
 *1.*
 
-  ![segment_timing](wawedrom.png)
+  ![segment_timing](wavedrom.png)
 
 
 ```
