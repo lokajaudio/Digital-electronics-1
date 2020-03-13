@@ -1,7 +1,8 @@
 *1.*
 
   &nbsp;
-    ![segment_timing](../../wavedrom (2).png)
+    ![segment_timing](../../
+06-display_driver/wavedrom.png)
     &nbsp;
 
 ```
