@@ -1,7 +1,6 @@
 *1.*
 
-    ![segment_timing](https://github.com/lokajaudio/Digital-electronics-1/blob/master/Labs/06-display_driver/wavedrom.png?raw=true)
-
+  ![segment_timing](wawedrom.png)
 
 
 ```
