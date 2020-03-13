@@ -1,7 +1,7 @@
 *1.*
 
   &nbsp;
-    ![segment_timing](../../wavedrom (2).pngg)
+    ![segment_timing](../../wavedrom (2).png)
     &nbsp;
 
 ```
