@@ -1,5 +1,8 @@
 *1.*
-![](/wavedrom (2).png)
+
+  &nbsp;
+    ![segment_timing](../../wavedrom (2).pngg)
+    &nbsp;
 
 ```
 {signal: [
