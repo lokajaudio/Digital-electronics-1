@@ -43,11 +43,11 @@ Rename the states `s0`, `s1`, .., `s5` from the example to more meaningful and d
 
 
 #### STATE DIAGRAM
-![state diagram](state_diagram.jpgs=500)
+![state diagram](state_diagram.jpg)
 
 
 #### TOP DIAGRAM
-![topdiagram](top_diagram.jpgs=500)
+![topdiagram](top_diagram.jpg)
 
 
 
