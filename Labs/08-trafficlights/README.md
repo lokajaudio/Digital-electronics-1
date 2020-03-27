@@ -1,16 +1,18 @@
 # Lab 8: Traffic light controller
 
-#### simulation
+[Example: Traffic Light Controller](https://www.youtube.com/watch?v=6_Rotnw1hFM)
+
+#### SIMULATION
 
 
 ![simulation](simulation.png)
 
 
-#### state diagram
+#### STATE DIAGRAM
 ![state diagram](state_diagram.jpg)
 
 
-#### top diagram
+#### TOP DIAGRAM
 ![topdiagram](top_diagram.jpg)
 
 
