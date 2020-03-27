@@ -43,11 +43,11 @@ Rename the states `s0`, `s1`, .., `s5` from the example to more meaningful and d
 
 
 #### STATE DIAGRAM
-![state diagram](state_diagram.jpg){:height="50%" width="50%"}
+![state diagram](state_diagram.jpgs=500)
 
 
 #### TOP DIAGRAM
-![topdiagram](top_diagram.jpg){:height="50%" width="50%"}
+![topdiagram](top_diagram.jpgs=500)
 
 
 
