@@ -24,6 +24,7 @@
    We will be using:
    
    ***Ultrasonic Ranging Module HC - SR04***
+   ![sensor](sensor.jpg)
    
    It provides 2cm - 400cm non-contact measurement function, the ranging accuracy can reach to 3mm. 
    
@@ -33,6 +34,7 @@
    (3) IF the signal back, through high level , time of high output IO duration is the time from sending ultrasonic to returning. 
    
    ***CoolRunner-II CPLD***
+   ![coolrunner](coolrunner.jpg)
    
    The CoolRunner-II CPLD starter board is the perfect platform for the evaluation and implementation of designs using a high performance, low-power CPLD. Targeted applications include intelligent handheld devices, remote monitoring, wireless interfacing, and glue logic across any number of industries. 
    
