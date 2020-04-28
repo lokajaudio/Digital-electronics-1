@@ -33,7 +33,7 @@
    (2) The Module automatically sends eight 40 kHz and detect whether there is a pulse signal back. 
    (3) IF the signal back, through high level , time of high output IO duration is the time from sending ultrasonic to returning.
    
-   ![hcsr04timingdiagram](images/hcsr04timingdiagram.jpg)
+   ![hcsr04timingdiagram](images/hcsr04timingdiagram.png)
    
    ***CoolRunner-II CPLD***
    
