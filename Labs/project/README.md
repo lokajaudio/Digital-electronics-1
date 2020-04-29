@@ -59,7 +59,7 @@
    - Xilinx iSim
    
 ## Code Tree
-```python
+
    .
    ├── top.vhd
    │   ├── sensor.vhd
@@ -68,7 +68,7 @@
    │   ├── hex_to_seg.vhd
    │   └── display_driver.vhd
    └── tb_top.vhd
-```
+
       
 ## Schematic
 
