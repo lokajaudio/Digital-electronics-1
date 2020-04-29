@@ -91,13 +91,11 @@
       
    ![simulation](images/simulation.png)
    
-    ```vhdl
-
-   -- Stimulus process
-   stim_proc: process
-   begin		
-      -- hold reset state for 100 ns.
-      wait for 10 us;	
+```python
+	stim_proc: process
+		begin		
+      		-- hold reset state for 100 ns.
+      		wait for 10 us;	
 		echo_s <= '0';
 		wait for 10 us;
 		echo_s <= '1';
@@ -113,11 +111,11 @@
 		echo_s <= '1';
 		wait for 800 us;
 		echo_s <= '0';	
-      wait for clk_i_period*10;
-      wait;
-   end process;
-
- ```
+      		wait for clk_i_period*10;
+      		wait;
+   	end process;
+```
+  
 
 
 ## References
