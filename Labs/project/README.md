@@ -17,23 +17,23 @@
 ## Introduction
 
 
-   In this project we are going to use board *CoolRunner-II CPLD* a sonic range meter module *HC-SR04*.
-   The *HC-SR04* will be measuring range from a static object and print it to the seven segment display.
-   
+      In this project we are going to use board *CoolRunner-II CPLD* a sonic range meter module *HC-SR04*.
+      The *HC-SR04* will be measuring range from a static object and print it to the seven segment display.
+
 
 ## Hardware
 
-   We will be using:
-   
-   ***Ultrasonic Ranging Module HC - SR04***
-   ![sensor](images/sensor.jpg)
-   
-   It provides 2cm - 400cm non-contact measurement function, the ranging accuracy can reach to 3mm. 
-   
-   *The basic principle of work:*
-   (1) Using IO trigger for at least 10us high level signal, 
-   (2) The Module automatically sends eight 40 kHz and detect whether there is a pulse signal back. 
-   (3) IF the signal back, through high level , time of high output IO duration is the time from sending ultrasonic to          returning.
+      We will be using:
+
+      ***Ultrasonic Ranging Module HC - SR04***
+      ![sensor](images/sensor.jpg)
+
+      It provides 2cm - 400cm non-contact measurement function, the ranging accuracy can reach to 3mm. 
+
+      *The basic principle of work:*
+      (1) Using IO trigger for at least 10us high level signal, 
+      (2) The Module automatically sends eight 40 kHz and detect whether there is a pulse signal back. 
+      (3) IF the signal back, through high level , time of high output IO duration is the time from sending ultrasonic to          returning.
    
    ![hcsr04timingdiagram](images/hcsr04timingdiagram.png)
    
@@ -41,8 +41,8 @@
    
    ![coolrunner](images/coolrunner.jpg)
    
-   The CoolRunner-II CPLD starter board is the perfect platform for the evaluation and implementation of designs using a high performance, low-power CPLD. Targeted applications include intelligent handheld devices, remote monitoring, wireless interfacing, and glue logic across any number of industries. 
-   
+      The CoolRunner-II CPLD starter board is the perfect platform for the evaluation and implementation of designs using a high performance, low-power CPLD. Targeted applications include intelligent handheld devices, remote monitoring, wireless interfacing, and glue logic across any number of industries. 
+
        ***Features:***
        Xilinx CoolRunner-II CPLD (XC2C256-TQ144)
        A 256-macrocell CoolRunner-II CPLD in a TQ-144 package
@@ -53,7 +53,7 @@
        Four 12-pin Pmod ports
 
 ## Software used
-   Xilinx ISE 14.7, Xilinx iSim
+      Xilinx ISE 14.7, Xilinx iSim
    
 ## Code Tree
       
@@ -67,22 +67,22 @@
       └── tb_top.vhd
       
 ## Schematic
-   RTL schematic of top.vhd module
-   
-   ![top](images/top.PNG)
-   
-   ![rtl](images/rtl.jpg)
+      RTL schematic of top.vhd module
+
+      ![top](images/top.PNG)
+
+      ![rtl](images/rtl.jpg)
 
 ## Function diagram
-   ![chart](images/chart.jpg)
+      ![chart](images/chart.jpg)
    
 ## Simulations
 
 
 
 ## References
-- VHDL ReferenceManual, [[online](https://www.ics.uci.edu/~jmoorkan/vhdlref/Synario%20VHDL%20Manual.pdf)]
-- XC2C256 CoolRunner-II CPLD datasheet, [[online](https://www.xilinx.com/support/documentation/data_sheets/ds094.pdf)]
-- HC-SR04 UserGuide, [[online](https://gzhls.at/blob/ldb/a/f/8/d/3d41c9a2c62a80a00d10ed24111df3fa6f43.pdf)]
-- HC-SR04 User Manual, [[online](http://web.eece.maine.edu/~zhu/book/lab/HC-SR04%20User%20Manual.pdf)] 
+      - VHDL ReferenceManual, [[online](https://www.ics.uci.edu/~jmoorkan/vhdlref/Synario%20VHDL%20Manual.pdf)]
+      - XC2C256 CoolRunner-II CPLD datasheet, [[online](https://www.xilinx.com/support/documentation/data_sheets/ds094.pdf)]
+      - HC-SR04 UserGuide, [[online](https://gzhls.at/blob/ldb/a/f/8/d/3d41c9a2c62a80a00d10ed24111df3fa6f43.pdf)]
+      - HC-SR04 User Manual, [[online](http://web.eece.maine.edu/~zhu/book/lab/HC-SR04%20User%20Manual.pdf)] 
 
