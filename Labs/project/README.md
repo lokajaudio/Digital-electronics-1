@@ -62,7 +62,6 @@
       │   ├── bits_to_bcd.vhd
       │   ├── matrix.vhd
       │   ├── hex_to_seg.vhd
-      │   ├── .vhd
       │   └── display_driver.vhd
       └── tb_top.vhd
       
