@@ -90,6 +90,32 @@
       Measured vaule is represented on 7seg display.
       
    ![simulation](images/simulation.png)
+   
+   
+               -- Stimulus process
+               stim_proc: process
+               begin		
+                  wait for 10 us;	
+                        echo_s <= '0';
+                        wait for 10 us;
+                        echo_s <= '1';
+                        wait for 50 us;
+                        echo_s <= '0';	
+                        wait for 10 us;
+                        echo_s <= '1';
+                        wait for 150 us;
+                        echo_s <= '0';
+                        wait for 10 us;	
+                        echo_s <= '0';
+                        wait for 10 us;
+                        echo_s <= '1';
+                        wait for 800 us;
+                        echo_s <= '0';	
+
+                  wait for clk_i_period*10;
+                  wait;
+               end process;
+
 
 
 ## References
