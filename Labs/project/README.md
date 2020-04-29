@@ -71,7 +71,7 @@
    
    ![top](images/top.PNG)
    
-   ![RTL](images/RTL.jpg)
+   ![RTL](images/rtl.jpg)
 
 ## Function diagram
    ![chart](images/chart.jpg)
