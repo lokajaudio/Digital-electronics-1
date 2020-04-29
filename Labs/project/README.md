@@ -29,11 +29,16 @@
 
    It provides 2cm - 400cm non-contact measurement function, the ranging accuracy can reach to 3mm. 
 
-   *The basic principle of work: 
-    (1) Using IO trigger for at least 10us high level signal,      
-    (2) The Module automatically sends eight 40 kHz and detect whether there is a pulse signal back. 
-    (3) IF the signal back, through high level , time of high output IO duration is the time
-      from sending ultrasonic to returning.
+
+   Basic principles of work
+   
+   1. Sendinf at least 10us of HIGH signal to trigger pin.
+
+   2. Detect the pulse width of echo signal sent back.
+
+   3. Apply calculation to get the distance.
+
+
    
    ![hcsr04timingdiagram](images/hcsr04timingdiagram.png)
    
