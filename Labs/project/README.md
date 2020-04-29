@@ -55,22 +55,22 @@
    Xilinx ISE 14.7, Xilinx iSim
    
 ## Code Tree
-$ tree
-.
-├── dir1
-│   ├── file11.ext
-│   └── file12.ext
-├── dir2
-│   ├── file21.ext
-│   ├── file22.ext
-│   └── file23.ext
-├── dir3
-├── file_in_root.ext
-└── README.md
+      
+      .
+      ├── top.vhd
+      │   ├── sensor.vhd
+      │   ├── bits_to_bcd.vhd
+      │   ├── matrix.vhd
+      │   ├── hex_to_seg.vhd
+      │   ├── .vhd
+      │   └── display_driver.vhd
+      └── tb_top.vhd
+      
+## Function diagram
+   
+     
 
-3 directories, 7 files
 
-3 directories, 7 files
 ## References
 - VHDL ReferenceManual, [[online](https://www.ics.uci.edu/~jmoorkan/vhdlref/Synario%20VHDL%20Manual.pdf)]
 
