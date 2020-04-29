@@ -89,7 +89,7 @@
 
 ## References
    - VHDL ReferenceManual, [[online](https://www.ics.uci.edu/~jmoorkan/vhdlref/Synario%20VHDL%20Manual.pdf)]
-   - XC2C256 CoolRunner-II CPLD datasheet, [[online](https://www.xilinx.com/support/documentation/data_sheets/ds094.pdf)      -         
+   - XC2C256 CoolRunner-II CPLD datasheet, [[online](https://www.xilinx.com/support/documentation/data_sheets/ds094.pdf)]       
    - HC-SR04 UserGuide, [[online](https://gzhls.at/blob/ldb/a/f/8/d/3d41c9a2c62a80a00d10ed24111df3fa6f43.pdf)]
    - HC-SR04 User Manual, [[online](http://web.eece.maine.edu/~zhu/book/lab/HC-SR04%20User%20Manual.pdf)] 
 
