@@ -69,7 +69,7 @@
 ## Schematic
    RTL schematic of top.vhd module
    
-   ![top](images/top.jpg)
+   ![top](images/top.PNG)
    
    ![RTL](images/RTL.jpg)
 
