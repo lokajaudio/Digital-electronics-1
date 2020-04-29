@@ -85,6 +85,11 @@
    
 ## Simulations
 
+      Simulation of top.vhd
+      We set signal of "echo" to two testing pulses of 50us and 150us.
+      Measured vaule is represented on 7seg display.
+      
+   ![simulation](images/simulation.png)
 
 
 ## References
