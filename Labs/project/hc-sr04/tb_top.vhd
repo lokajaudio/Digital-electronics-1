@@ -1,15 +1,3 @@
---------------------------------------------------------------------------------
--- Company: 
--- Engineer:
---
--- Create Date:   20:09:24 04/28/2020
--- Design Name:   
--- Module Name:   D:/Project_Digital_Electronics_1_Distance_Meas/tb_top.vhd
--- Project Name:  Project_Digital_Electronics_1_Distance_Meas
--- Target Device:  
--- Tool versions:  
--- Description:   
--- 
 -- VHDL Test Bench Created by ISE for module: top
 -- 
 -- Dependencies:
@@ -87,12 +75,22 @@ BEGIN
    stim_proc: process
    begin		
       -- hold reset state for 100 ns.
-      wait for 100 ns;	
+      wait for 10 us;	
 		echo_s <= '0';
-		wait for 100 ns;
+		wait for 10 us;
 		echo_s <= '1';
-		wait for 100 ns;
+		wait for 50 us;
+		echo_s <= '0';	
+		wait for 10 us;
 		echo_s <= '1';
+		wait for 150 us;
+		echo_s <= '0';
+		wait for 10 us;	
+		echo_s <= '0';
+		wait for 10 us;
+		echo_s <= '1';
+		wait for 800 us;
+		echo_s <= '0';	
 
       wait for clk_i_period*10;
 
