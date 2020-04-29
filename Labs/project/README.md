@@ -91,10 +91,12 @@
       
    ![simulation](images/simulation.png)
    
+   
+   ### Block from stimulation
 ```python
 	stim_proc: process
-		begin		
-      		-- hold reset state for 100 ns.
+	    begin		
+  
       		wait for 10 us;	
 		echo_s <= '0';
 		wait for 10 us;
@@ -112,7 +114,7 @@
 		wait for 800 us;
 		echo_s <= '0';	
       		wait for clk_i_period*10;
-      		wait;
+      	     wait;
    	end process;
 ```
   
