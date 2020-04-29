@@ -59,15 +59,14 @@
       Xilinx ISE 14.7, Xilinx iSim
    
 ## Code Tree
-      
-   ###   .
-   ###   ├── top.vhd
-   ###   │   ├── sensor.vhd
-   ###   │   ├── bits_to_bcd.vhd
-   ###   │   ├── matrix.vhd
-   ###   │   ├── hex_to_seg.vhd
-   ###   │   └── display_driver.vhd
-   ###   └── tb_top.vhd
+      .
+      ├── top.vhd
+      │   ├── sensor.vhd
+      │   ├── bits_to_bcd.vhd
+      │   ├── matrix.vhd
+      │   ├── hex_to_seg.vhd
+      │   └── display_driver.vhd
+      └── tb_top.vhd
       
 ## Schematic
 
