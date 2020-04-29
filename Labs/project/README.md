@@ -32,11 +32,11 @@
 
    *Basic principles of work*
    
-   1. Send at least 10us of HIGH signal to trigger pin.
+   Send at least 10us of HIGH signal to trigger pin.
 
-   2. Detect the pulse width of echo signal sent back.
+   Detect the pulse width of echo signal sent back.
 
-   3. Apply calculation to get the distance.
+   Apply calculation to get the distance.
 
 
    
