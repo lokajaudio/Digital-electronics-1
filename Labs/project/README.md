@@ -7,7 +7,7 @@
 1. [Introduction](#introduction)
 2. [Hardware](#hardware)
 3. [Used Software](#software)
-4. [Code Blocks](#blocks)
+4. [Project Tree](#blocks)
 5. [Function](#function)
 6. [Simulations](#simulations)
 4. [References](#references)
@@ -32,7 +32,7 @@
    *The basic principle of work:*
    (1) Using IO trigger for at least 10us high level signal, 
    (2) The Module automatically sends eight 40 kHz and detect whether there is a pulse signal back. 
-   (3) IF the signal back, through high level , time of high output IO duration is the time from sending ultrasonic to returning.
+   (3) IF the signal back, through high level , time of high output IO duration is the time from sending ultrasonic to          returning.
    
    ![hcsr04timingdiagram](images/hcsr04timingdiagram.png)
    
@@ -54,7 +54,22 @@
 ## Software used
    Xilinx ISE 14.7, Xilinx iSim
    
-## Blocks
+## Project Tree
+   $ ./tree-md .
+   # Project tree
+
+.
+ * [tree-md](./tree-md)
+ * [dir2](./dir2)
+   * [file21.ext](./dir2/file21.ext)
+   * [file22.ext](./dir2/file22.ext)
+   * [file23.ext](./dir2/file23.ext)
+ * [dir1](./dir1)
+   * [file11.ext](./dir1/file11.ext)
+   * [file12.ext](./dir1/file12.ext)
+ * [file_in_root.ext](./file_in_root.ext)
+ * [README.md](./README.md)
+ * [dir3](./dir3)
 
 ## References
 - VHDL ReferenceManual, [[online](https://www.ics.uci.edu/~jmoorkan/vhdlref/Synario%20VHDL%20Manual.pdf)]
