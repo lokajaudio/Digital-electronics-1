@@ -91,7 +91,7 @@
       
    ![simulation](images/simulation.png)
    
-   
+```
                -- Stimulus process
                stim_proc: process
                begin		
@@ -115,7 +115,7 @@
                   wait for clk_i_period*10;
                   wait;
                end process;
-
+ ```
 
 
 ## References
