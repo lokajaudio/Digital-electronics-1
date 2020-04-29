@@ -7,7 +7,7 @@
 1. [Introduction](#introduction)
 2. [Hardware](#hardware)
 3. [Used Software](#software)
-4. [Project Tree](#blocks)
+4. [Code Tree](#codetree)
 5. [Function](#function)
 6. [Simulations](#simulations)
 4. [References](#references)
@@ -54,23 +54,21 @@
 ## Software used
    Xilinx ISE 14.7, Xilinx iSim
    
-## Project Tree
-   $ ./tree-md .
-   # Project tree
+## Code Tree
+      $ tree
+      .
+      ├── dir1
+      │   ├── file11.ext
+      │   └── file12.ext
+      ├── dir2
+      │   ├── file21.ext
+      │   ├── file22.ext
+      │   └── file23.ext
+      ├── dir3
+      ├── file_in_root.ext
+      └── README.md
 
-.
- * [tree-md](./tree-md)
- * [dir2](./dir2)
-   * [file21.ext](./dir2/file21.ext)
-   * [file22.ext](./dir2/file22.ext)
-   * [file23.ext](./dir2/file23.ext)
- * [dir1](./dir1)
-   * [file11.ext](./dir1/file11.ext)
-   * [file12.ext](./dir1/file12.ext)
- * [file_in_root.ext](./file_in_root.ext)
- * [README.md](./README.md)
- * [dir3](./dir3)
-
+3 directories, 7 files
 ## References
 - VHDL ReferenceManual, [[online](https://www.ics.uci.edu/~jmoorkan/vhdlref/Synario%20VHDL%20Manual.pdf)]
 
