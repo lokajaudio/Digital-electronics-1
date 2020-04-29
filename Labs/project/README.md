@@ -30,9 +30,9 @@
    It provides 2cm - 400cm non-contact measurement function, the ranging accuracy can reach to 3mm. 
 
 
-   Basic principles of work
+   *Basic principles of work*
    
-   1. Sendinf at least 10us of HIGH signal to trigger pin.
+   1. Send at least 10us of HIGH signal to trigger pin.
 
    2. Detect the pulse width of echo signal sent back.
 
