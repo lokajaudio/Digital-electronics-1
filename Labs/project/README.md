@@ -8,9 +8,10 @@
 2. [Hardware](#hardware)
 3. [Used Software](#software)
 4. [Code Tree](#codetree)
-5. [Function](#function)
-6. [Simulations](#simulations)
-4. [References](#references)
+5. [Schematic](#schematic)
+6. [Function](#function)
+7. [Simulations](#simulations)
+8. [References](#references)
 
 
 ## Introduction
@@ -65,6 +66,12 @@
       │   └── display_driver.vhd
       └── tb_top.vhd
       
+## Schematic
+   RTL schematic of top.vhd module
+   
+   ![schem](images/top.jpg)
+   ![schem2](images/RTL.jpg)
+
 ## Function diagram
    ![chart](images/chart.jpg)
    
