@@ -69,8 +69,9 @@
 ## Schematic
    RTL schematic of top.vhd module
    
-   ![schem](images/top.jpg)
-   ![schem2](images/RTL.jpg)
+   ![top](images/top.jpg)
+   
+   ![RTL](images/RTL.jpg)
 
 ## Function diagram
    ![chart](images/chart.jpg)
