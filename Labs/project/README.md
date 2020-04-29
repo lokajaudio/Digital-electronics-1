@@ -67,9 +67,9 @@
       └── tb_top.vhd
       
 ## Function diagram
+   ![chart](images/chart.jpg)
    
      
-
 
 ## References
 - VHDL ReferenceManual, [[online](https://www.ics.uci.edu/~jmoorkan/vhdlref/Synario%20VHDL%20Manual.pdf)]
