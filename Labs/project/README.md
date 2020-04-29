@@ -34,7 +34,7 @@
    
    - Send at least 10us of HIGH signal to trigger pin.
 
-   - The Module automatically sends eight 40 kHz and detect whether there is a pulse signal back. 
+   - The Module automatically sends eight pulses and detect whether there is a pulse signal back. 
 
    - Apply calculation to get the distance.
 
