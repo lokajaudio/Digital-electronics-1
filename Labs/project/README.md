@@ -91,7 +91,7 @@
       
    ![simulation](images/simulation.png)
    
-    ```
+    ```vhdl
 
    -- Stimulus process
    stim_proc: process
