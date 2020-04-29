@@ -1,8 +1,8 @@
 # Project - Measuring distance with HC-SR04 module
-# Digital-electronics-1
+#### Digital-electronics-1
 
 
-#### Table of Contents
+## Table of Contents
 
 1. [Introduction](#introduction)
 2. [Hardware](#hardware)
