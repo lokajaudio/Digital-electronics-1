@@ -1,14 +1,15 @@
-# Lab 10-13 week: Project - 
+# Project - Measuring distance with HC-SR04 module
 # Digital-electronics-1
 
-
-# 1. Project
 
 #### Table of Contents
 
 1. [Introduction](#introduction)
 2. [Hardware](#hardware)
-3. [Software](#software)
+3. [Used Software](#software)
+4. [Code Blocks](#blocks)
+5. [Function](#function)
+6. [Simulations](#simulations)
 4. [References](#references)
 
 
